@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 2 - Os Primeiros Habitantes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="menu">
+        <a href="index.html">Capa</a>
+        <a href="pagina2.html" class="active">Pág 2: Povos Africanos</a>
+        <a href="pagina3.html">Pág 3: Imigração</a>
+        <a href="pagina4.html">Pág 4: Migrantes Brasileiros</a>
+        <a href="pagina5.html">Pág 5: Guerras</a>
+        <a href="pagina6.html">Pág 6: Ciclos Econômicos</a>
+    </nav>
+
+    <main class="conteudo-pagina">
+        <h1>Os Primeiros Habitantes e os Povos Africanos</h1>
+        
+        <h2>A Presença Africana no Paraná</h2>
+        <p>Aqui você escreve sobre a chegada dos escravizados e o trabalho nas fazendas...</p>
+        
+        <h3>Contribuições Culturais</h3>
+        <p>Fale sobre a culinária, religião e música...</p>
+
+        <div class="editorial">
+            <strong>Curiosidade:</strong> O censo de 1798 mostrava que a quantidade de escravos já superava a de indígenas.
+        </div>
+    </main>
+
+</body>
+</html>
