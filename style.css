@@ -1,0 +1,75 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fcfaf2; /* Cor que lembra papel de jornal antigo */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de Navegação */
+.menu {
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.menu a:hover, .menu a.active {
+    background-color: #16a085;
+}
+
+/* Layout do Conteúdo */
+.capa-container, .conteudo-pagina {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.editorial {
+    font-style: italic;
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #16a085;
+    margin: 20px 0;
+}
+
+.destaque img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.legenda {
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
